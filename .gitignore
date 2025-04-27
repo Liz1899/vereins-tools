@@ -1,0 +1,64 @@
+# Virtuelle Umgebung
+.venv/
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+
+# Python-Cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore secrets
+.env
+credentials/*.json
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Test-/Coverage-Dateien
+htmlcov/
+.tox/
+.pytest_cache/
+.cache/
+*.cover
+.coverage
+coverage.xml
+tests/output/
+tests/*.log
+
+# Temporäre Dateien
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+*.rej
+*.sh
+
+# Output
+output/
+*.csv
+*.zip
+*.xlsx
+*.pdf
+*.png
+*.jpg
+
+# OS-Systemdateien
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Konfig-/Dotfiles
+.env
+.env.*
