@@ -1,4 +1,7 @@
 # Verbands-Toolset
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
+![Google Sheets](https://img.shields.io/badge/Google%20Sheets-API-34A853?logo=googlesheets)
 
 Dies ist ein wachsendes Open-Source-Toolset zur digitalen Unterstützung von Verbänden, Vereinen und gemeinnützigen Organisationen.
 
@@ -18,7 +21,7 @@ Das Modul extrahiert alle eingebetteten Bilder aus einer PDF-Datei und speichert
 ### Nutzung
 
 ```bash
-python scripts/run_pdf_image_extractor.py <Pfad_zur_PDF> [-o Zielordner] [-e Bildformat]`
+python scripts/run_pdf_image_extractor.py <Pfad_zur_PDF> [-o Zielordner] [-e Bildformat]
 ```
 
 Beispiel:
@@ -60,13 +63,5 @@ Das Modul `upload_scores` ermöglicht das automatische Einlesen von Spielerdaten
      ```bash
      python scripts/run_score_uploader.py
      ```
-
----
-
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-API-34A853?logo=googlesheets)
 
 ---
